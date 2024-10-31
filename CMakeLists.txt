@@ -17,3 +17,10 @@ target_include_directories(OctreeTest
 	PRIVATE
 		DynamicStructure
 )
+
+target_link_libraries(OctreeTest
+	PRIVATE
+		d3d9.lib
+		d3dx9.lib
+		winmm.lib
+)
